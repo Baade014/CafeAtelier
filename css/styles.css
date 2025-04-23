@@ -1,0 +1,210 @@
+/* Paleta de cores:
+    - rgb(255, 248, 241) (Off White - Fundo)
+    - #efe5d5 (Bege - Detalhes)
+    - #e0d8ca (Bege Escuro - Intermediária)
+    - #d4c098 (Cor Capuccino)
+    - #5f3711 (Marrom - Detalhamento principal)
+*/
+
+/* box-shadow: deslocamento-horizontal deslocamento-vertical blur spread cor; */
+
+
+body {
+    background-color: rgb(255, 248, 241);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------------------------ Mexendo no Header do index.html ----------------------------------------------- */
+header {
+    display: flex;
+    flex-direction: row;
+    color: #5f3711c8;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 6px #6d6d6d97;
+    background-color: #efe5d5;
+}
+
+.selected {
+    padding-bottom: 60px;
+    border-bottom: #5f3711 7px solid;
+}
+
+.sub-header {
+    font-size: 17px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.sub-header a {
+    color: #5f3711c8;
+    text-decoration: none;
+}
+
+.sub-header a:hover {
+    color: #5f3711;
+    cursor: pointer;
+}
+
+#links-header {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 55px;
+}
+
+header img {
+    height: 150px;
+    margin-left: 0px;
+}
+
+
+/* ------------------------------------------------ Mexendo no Nav do index.html ----------------------------------------------- */
+
+/* ------------------------------------------------ Mexendo no Miolo do index.html ----------------------------------------------- */
+.carrossel {
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.slides {
+    display: flex;
+    transition: transform 2s ease;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+@keyframes moverSlides {
+    0% {
+        transform: translateX(-250px);
+    }
+    25% {
+        transform: translateX(-2250px);
+    }
+    50% {
+        transform: translateX(-4250px);
+    }
+    75% {
+        transform: translateX(-2250px);
+    }
+    100% {
+        transform: translateX(-250px);
+    }
+}
+
+.carrossel .slides {
+    animation: moverSlides 20s infinite;
+}
+
+#container-destaques {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#container h1 {
+    text-align: center;
+    color: #5f3711;
+}
+
+#box-geralI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-d {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 75px 0px 75px;
+}
+
+.dP {
+    background-color: #efe5d5;
+    display: flex;
+    flex-direction: column;
+    color: #5f3711;
+    text-align: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.dTxtP {
+    margin: 7px 5px;
+    font-size: 26px;
+    font-weight: 500;
+
+}
+
+.dTxt {
+    margin: 7px 5px;
+    font-size: 20px;
+}
+
+.ajuste-dTxt {
+    flex-direction: row;
+}
+
+#cajour-tm {
+    font-weight: bolder;
+}
+
+.dImg {
+    width: 700px;
+}
+
+.saiba-mais1 {
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    color: #5f3711;
+    background-color: #efe5d5;
+    border: #5f3711 1px solid;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: 20px auto 0px auto;
+}
+
+.saiba-mais1:hover {
+    background-color: #e2d8c7;
+    width: 110px;
+    height: 27px;
+    font-size: 14px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+
+/* ------------------------------------------------ Mexendo no Footer do index.html ----------------------------------------------- */
+footer {
+    display: flex;
+    border-top: #5f3711 1px solid;
+    justify-content: center;
+    text-align: center;
+    color: #5f3711;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0px;
+    font-weight: lighter;
+    background-color: rgb(255, 248, 241);
+}
+
+#footer1 a {
+    color: #5f3711;
+    text-decoration: none;
+}
+
+#footer1 a:hover {
+    font-weight: normal;
+}

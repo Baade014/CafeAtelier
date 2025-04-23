@@ -1,0 +1,39 @@
+Conceito: Site de Cafeteria
+1. Layout e Estrutura:
+Página Inicial (Home):
+
+Header com o nome da cafeteria, logo e um menu fixo de navegação (Home, Menu, Sobre, Contato).
+
+Banner de Abertura (Hero Section) com uma imagem de alta qualidade de uma xícara de café ou um ambiente aconchegante da cafeteria. Texto de boas-vindas e uma chamada para ação como "Explore nosso cardápio" ou "Venha nos visitar!"
+
+Seção de Destaques com produtos em promoção, novos itens no menu ou um especial do mês, com imagens e pequenas descrições.
+
+Menu:
+
+Um layout de grid com categorias de produtos, como "Cafés", "Chás", "Doces", "Bebidas Geladas", etc. Cada categoria tem uma imagem representativa e uma breve descrição.
+
+Filtros para o usuário escolher entre diferentes tipos de café ou bebidas (ex: Café Espresso, Latte, etc).
+
+Sobre:
+
+Uma seção que conta a história da cafeteria, com fotos do interior do local, a filosofia da marca e o compromisso com produtos de qualidade. Pode incluir uma pequena galeria com imagens do ambiente.
+
+Contato:
+
+Um formulário de contato simples, com campos para nome, email e mensagem. Além disso, incluir informações como telefone, endereço e horário de funcionamento.
+
+Um mapa interativo do Google Maps para que os clientes encontrem facilmente a localização da cafeteria.
+
+2. Estilo e Design:
+Paleta de Cores: Tons quentes e aconchegantes, como marrons, beges e dourados, que remetam ao ambiente de uma cafeteria. Um tom de verde ou laranja pode ser usado para os destaques e botões.
+
+Tipografia: Fontes serifadas e suaves, como Merriweather ou Playfair Display, para dar um toque sofisticado e acolhedor. Para os textos principais, fontes mais simples e legíveis como Lora ou Roboto.
+
+Imagens e Ícones: Imagens de alta qualidade de café, pratos e bebidas, combinadas com ícones simples e arredondados, para criar uma sensação amigável e acolhedora.
+
+Animações e Efeitos: Animações suaves para botões (como um efeito de crescimento sutil no hover) e transições nas imagens para uma navegação mais dinâmica. Pequenos detalhes de animação, como um café se enchendo de forma suave ao passar o mouse sobre o item do menu, podem criar uma experiência interessante.
+
+3. Responsividade:
+O layout deve ser flexível e adaptável, com um design responsivo que funcione bem em dispositivos móveis e desktop.
+
+No celular, o menu pode ser convertido em um hamburger menu, e as imagens e descrições devem ser reorganizadas para se ajustarem à tela menor.
